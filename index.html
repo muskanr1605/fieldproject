@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KindHearts — small actions, big impact.">
+  <title>KindHearts | Together for a Better Tomorrow</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#home">
+    <span class="brand-mark">♥</span>
+    <span>
+      <strong>KindHearts</strong>
+      <small>Together for a better tomorrow</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#work">Our Work</a>
+    <a href="#needs">Needs</a>
+    <a href="#volunteer">Volunteer</a>
+    <a href="#impact">Impact</a>
+    <a href="#partner">Partner</a>
+    <a href="#stories">Stories</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="icon-button" id="searchOpen" aria-label="Search">⌕</button>
+    <button class="button button-dark" data-modal="donateModal">Donate Now ↗</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO SECTION -->
+  <section class="hero section-wrap" id="home">
+    <div class="hero-copy">
+      <span class="eyebrow">✦ REAL PEOPLE • REAL SUPPORT • LASTING CHANGE</span>
+
+      <h1>Small Actions.<br><span>Big Impact.</span></h1>
+
+      <p>
+        We connect kind hearts with real needs — helping communities access
+        food, education, healthcare and opportunities for a brighter future.
+      </p>
+
+      <div class="hero-actions">
+        <button class="button button-dark" data-modal="donateModal">
+          Donate Now ↗
+        </button>
+
+        <a class="button button-outline" href="#work">
+          Explore Our Work
+        </a>
+      </div>
+
+      <div class="hero-note">
+        <span>🌱</span>
+        <span>
+          <strong>1,250+ lives impacted</strong>
+          <small>One caring action can start a ripple.</small>
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="hero-blob"></div>
+
+      <img
+        src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=85"
+        alt="Hands caring for a young green plant"
+      >
+
+      <div class="floating-note">
+        ♡
+        <span>Together,<br>we can make<br>a difference.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACTIONS -->
+  <section class="quick-actions section-wrap">
+    <a href="#needs">
+      <span class="round-icon">♡</span>
+      <strong>Donate</strong>
+      <small>Support real change</small>
+    </a>
+
+    <a href="#volunteer">
+      <span class="round-icon">♧</span>
+      <strong>Volunteer</strong>
+      <small>Share your time</small>
+    </a>
+
+    <a href="#partner">
+      <span class="round-icon">▣</span>
+      <strong>Partner</strong>
+      <small>Build together</small>
+    </a>
+
+    <a href="#work">
+      <span class="round-icon">♧</span>
+      <strong>Our Work</strong>
+      <small>Explore our causes</small>
+    </a>
+
+    <a href="#impact">
+      <span class="round-icon">▥</span>
+      <strong>Impact</strong>
+      <small>See the difference</small>
+    </a>
+  </section>
+
+  <!-- OUR WORK -->
+  <section class="section-wrap section-block" id="work">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">✧ WHAT WE DO</span>
+        <h2>Our Work</h2>
+        <p>
+          We focus on creating sustainable change through education,
+          healthcare, nutrition and community development.
+        </p>
+      </div>
+
+      <a class="text-link" href="#partner">View All Causes →</a>
+    </div>
+
+    <div class="cause-grid">
+
+      <article class="cause-card">
+        <img
+          src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=700&q=80"
+          alt="Food being prepared for people in need"
+        >
+
+        <div class="cause-content">
+          <span class="cause-icon">♧</span>
+          <h3>Food & Nutrition</h3>
+          <p>Providing nutritious meals and essentials to those in need.</p>
+          <a href="#needs">Learn More →</a>
+        </div>
+      </article>
+
+      <article class="cause-card">
+        <img
+          src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80"
+          alt="Children learning in a classroom"
+        >
+
+        <div class="cause-content">
+          <span class="cause-icon">✎</span>
+          <h3>Education</h3>
+          <p>Supporting learning, skills and brighter opportunities.</p>
+          <a href="#needs">Learn More →</a>
+        </div>
+      </article>
+
+      <article class="cause-card">
+        <img
+          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
+          alt="Healthcare professional at work"
+        >
+
+        <div class="cause-content">
+          <span class="cause-icon">♡</span>
+          <h3>Healthcare</h3>
+          <p>Improving access to basic healthcare and wellness.</p>
+          <a href="#needs">Learn More →</a>
+        </div>
+      </article>
+
+      <article class="cause-card">
+        <img
+          src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=700&q=80"
+          alt="Volunteers working together"
+        >
+
+        <div class="cause-content">
+          <span class="cause-icon">♧</span>
+          <h3>Community Support</h3>
+          <p>Strengthening communities through sustainable initiatives.</p>
+          <a href="#needs">Learn More →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- IMPACT COUNTERS -->
+  <section class="impact-band" id="impact">
+    <div class="section-wrap impact-inner">
+
+      <div>
+        <span class="eyebrow">✧ OUR IMPACT</span>
+        <h2>Impact at a Glance</h2>
+
+        <p>Numbers that tell a bigger story — of hope, support and change.</p>
+
+        <button class="button button-light" id="reportButton">
+          View Detailed Report ↗
+        </button>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat">
+          <span>♧</span>
+          <strong data-count="1250">0</strong>
+          <small>People Reached</small>
+        </div>
+
+        <div class="stat">
+          <span>✧</span>
+          <strong data-count="86">0</strong>
+          <small>Volunteers</small>
+        </div>
+
+        <div class="stat">
+          <span>⌖</span>
+          <strong data-count="32">0</strong>
+          <small>Communities</small>
+        </div>
+
+        <div class="stat">
+          <span>♡</span>
+          <strong data-count="14">0</strong>
+          <small>Partner Organisations</small>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIVE NEEDS BOARD -->
+  <section class="section-wrap section-block" id="needs">
+
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">✧ CURRENT NEEDS</span>
+        <h2>Live Needs Board</h2>
+        <p>See what we need right now. Your support can make an immediate difference.</p>
+      </div>
+
+      <button class="text-link" id="allNeedsButton">View All Needs →</button>
+    </div>
+
+    <div class="needs-grid" id="needsGrid">
+
+      <article class="need-card">
+        <span class="need-symbol mint">♧</span>
+        <h3>Food Packets</h3>
+        <p><strong>50</strong> needed</p>
+        <div class="progress"><span style="width:65%"></span></div>
+        <button class="button button-teal" data-need="Food Packets" data-modal="donateModal">
+          Donate
+        </button>
+      </article>
+
+      <article class="need-card">
+        <span class="need-symbol blue">▤</span>
+        <h3>Notebooks</h3>
+        <p><strong>200</strong> needed</p>
+        <div class="progress"><span style="width:35%"></span></div>
+        <button class="button button-teal" data-need="Notebooks" data-modal="donateModal">
+          Donate
+        </button>
+      </article>
+
+      <article class="need-card">
+        <span class="need-symbol peach">♧</span>
+        <h3>Warm Clothes</h3>
+        <p><strong>30</strong> needed</p>
+        <div class="progress"><span style="width:50%"></span></div>
+        <button class="button button-teal" data-need="Warm Clothes" data-modal="donateModal">
+          Donate
+        </button>
+      </article>
+
+      <article class="need-card">
+        <span class="need-symbol mint">♧</span>
+        <h3>Volunteers</h3>
+        <p><strong>12</strong> needed</p>
+        <div class="progress"><span style="width:45%"></span></div>
+        <button class="button button-teal" data-modal="volunteerModal">
+          Join
+        </button>
+      </article>
+
+    </div>
+
+    <p class="demo-note">
+      Demo figures for presentation only — replace with verified NGO information.
+    </p>
+  </section>
+
+  <!-- VOLUNTEER MATCH -->
+  <section class="section-wrap volunteer-section" id="volunteer">
+
+    <div class="volunteer-intro">
+      <span class="eyebrow">✧ YOUR SKILLS MATTER</span>
+      <h2>Volunteer Match</h2>
+      <p>Tell us your skills and interests. We'll help you find the right opportunities.</p>
+
+      <div class="skills-box">
+        <strong>Select Your Skills</strong>
+
+        <label><input type="checkbox" value="Teaching / Mentoring" checked> Teaching / Mentoring</label>
+        <label><input type="checkbox" value="Design / Creative" checked> Design / Creative</label>
+        <label><input type="checkbox" value="Event Management"> Event Management</label>
+        <label><input type="checkbox" value="Tech / Coding"> Tech / Coding</label>
+        <label><input type="checkbox" value="Communication" checked> Communication</label>
+        <label><input type="checkbox" value="Other"> Other</label>
+
+        <button class="button button-dark full-width" id="findOpportunities">
+          Find Opportunities
+        </button>
+      </div>
+    </div>
+
+    <div class="opportunities">
+      <div class="section-heading compact">
+        <div>
+          <h3>Recommended for You</h3>
+          <p id="matchMessage">A few ways you could make a difference.</p>
+        </div>
+
+        <span class="live-pill">● Demo</span>
+      </div>
+
+      <article class="opportunity">
+        <span class="opportunity-pic">📚</span>
+        <div>
+          <h3>Teach for Tomorrow</h3>
+          <span class="tag">Education</span>
+          <p>2 hrs/week • Online / On-site</p>
+        </div>
+        <button class="button button-small" data-opportunity="Teach for Tomorrow">View</button>
+      </article>
+
+      <article class="opportunity">
+        <span class="opportunity-pic">🎨</span>
+        <div>
+          <h3>Creative Assistant</h3>
+          <span class="tag">Design</span>
+          <p>Flexible • Remote</p>
+        </div>
+        <button class="button button-small" data-opportunity="Creative Assistant">View</button>
+      </article>
+
+      <article class="opportunity">
+        <span class="opportunity-pic">🤝</span>
+        <div>
+          <h3>Community Event Support</h3>
+          <span class="tag">Events</span>
+          <p>1 day • On-site</p>
+        </div>
+        <button class="button button-small" data-opportunity="Community Event Support">View</button>
+      </article>
+    </div>
+
+  </section>
+
+  <!-- TRANSPARENCY DASHBOARD -->
+  <section class="section-wrap section-block transparency">
+
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">✧ TRANSPARENCY</span>
+        <h2>See Your Impact</h2>
+        <p>Track how your support creates real change in communities.</p>
+      </div>
+
+      <span class="live-pill">● Live Updates</span>
+    </div>
+
+    <div class="impact-metrics">
+
+      <div class="metric">
+        <span>♡</span>
+        <strong>₹ 2,48,000</strong>
+        <small>Total Donations</small>
+        <em>↑ 12%</em>
+      </div>
+
+      <div class="metric">
+        <span>♧</span>
+        <strong>1,240</strong>
+        <small>People Helped</small>
+        <em>↑ 18%</em>
+      </div>
+
+      <div class="metric">
+        <span>♙</span>
+        <strong>86</strong>
+        <small>Volunteers</small>
+        <em>↑ 22%</em>
+      </div>
+
+      <div class="metric">
+        <span>♧</span>
+        <strong>32</strong>
+        <small>Projects Completed</small>
+        <em>↑ 9%</em>
+      </div>
+
+    </div>
+
+    <p class="demo-note">
+      All figures are illustrative demo data, not verified financial reporting.
+    </p>
+  </section>
+
+ <!-- STORIES SECTION -->
+<section class="stories-section" id="stories">
+    <div class="stories-header">
+        <span class="section-tag">REAL IMPACT, REAL CHANGE</span>
+        <h2>Every Helping Hand<br>Creates a <span>New Story.</span></h2>
+        <p>
+            Behind every donation is a person, a family, or a community
+            whose life can change through kindness.
+        </p>
+    </div>
+
+    <div class="stories-grid">
+
+        <!-- STORY 1 -->
+        <article class="story-card">
+            <div class="story-image story-one">
+                <span class="story-category">EDUCATION</span>
+            </div>
+
+            <div class="story-content">
+                <span class="story-label">A LITTLE HELP, A BIG DREAM</span>
+
+                <h3>Giving Young Minds a Chance to Learn</h3>
+
+                <p>
+                    Access to books, stationery, and learning resources
+                    can make education easier for children from
+                    underprivileged backgrounds. Through community
+                    support, NGOs can help students continue learning
+                    and work towards their dreams.
+                </p>
+
+                <div class="story-footer">
+                    <span>📚 Education & Learning</span>
+                    <span class="story-arrow">↗</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- STORY 2 -->
+        <article class="story-card">
+            <div class="story-image story-two">
+                <span class="story-category">COMMUNITY SUPPORT</span>
+            </div>
+
+            <div class="story-content">
+                <span class="story-label">CARE WHEN IT MATTERS</span>
+
+                <h3>Standing Beside Families in Difficult Times</h3>
+
+                <p>
+                    When families face financial difficulties,
+                    essential supplies and timely community support
+                    can help ease their burden. NGO initiatives connect
+                    people who want to help with communities that
+                    need additional support.
+                </p>
+
+                <div class="story-footer">
+                    <span>🤝 Family Welfare</span>
+                    <span class="story-arrow">↗</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- STORY 3 -->
+        <article class="story-card">
+            <div class="story-image story-three">
+                <span class="story-category">VOLUNTEERING</span>
+            </div>
+
+            <div class="story-content">
+                <span class="story-label">TOGETHER, WE CAN</span>
+
+                <h3>Small Acts of Kindness, Collective Impact</h3>
+
+                <p>
+                    Volunteers can make a difference by collecting
+                    essential items, organising donation drives,
+                    and helping distribute resources. When people
+                    work together through an NGO, even small
+                    contributions can support a larger cause.
+                </p>
+
+                <div class="story-footer">
+                    <span>💚 Volunteer Initiatives</span>
+                    <span class="story-arrow">↗</span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="stories-cta">
+        <h3>Your kindness could be part of the next story.</h3>
+        <p>Be the reason someone believes in a better tomorrow.</p>
+        <a href="#volunteer" class="stories-button">
+            Become a Volunteer <span>→</span>
+        </a>
+    </div>
+</section>
+
+  <!-- PARTNER WITH US -->
+  <section class="section-wrap partner-banner" id="partner">
+    <div>
+      <span class="eyebrow">✧ LET'S BUILD TOGETHER</span>
+      <h2>Partner With Us</h2>
+      <p>Collaborate with us for greater reach,<br>stronger impact and a kinder tomorrow.</p>
+      <button class="button button-dark" data-modal="partnerModal">Get in Touch →</button>
+    </div>
+
+    <div class="partner-art" aria-hidden="true">
+      🤝<span>🌱</span>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="closing-cta">
+    <div class="section-wrap closing-inner">
+      <div>
+        <h2>Be the reason someone believes<br>in a better tomorrow.</h2>
+        <p>Your time, skills or contribution can change a life.</p>
+        <button class="button button-light" data-modal="donateModal">Donate Now →</button>
+        <button class="button button-outline-light" data-modal="volunteerModal">Volunteer →</button>
+      </div>
+
+      <div class="closing-art">
+        Together<br><strong>we grow.</strong> 🌿
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+
+    <a class="brand brand-light" href="#home">
+      <span class="brand-mark">♥</span>
+      <span>
+        <strong>KindHearts</strong>
+        <small>Together for a better tomorrow</small>
+      </span>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#work">Our Work</a>
+      <a href="#needs">Needs</a>
+      <a href="#volunteer">Volunteer</a>
+      <a href="#impact">Impact</a>
+      <a href="#partner">Partner</a>
+      <a href="#stories">Stories</a>
+    </nav>
+
+    <div class="socials">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="Facebook">f</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 KindHearts. All rights reserved.</span>
+    <span>Student project template — replace sample content with actual NGO details.</span>
+  </div>
+</footer>
+
+<!-- INTERACTIVE MODAL -->
+<div class="modal-backdrop" id="modalBackdrop" hidden>
+  <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+
+    <span class="eyebrow">LET'S MAKE A DIFFERENCE</span>
+    <h2 id="modalTitle">Donate Now</h2>
+    <p id="modalDescription">Choose how you would like to help.</p>
+
+    <form id="actionForm">
+
+      <div id="donationAmounts" class="amount-options">
+        <button type="button" class="amount active" data-amount="250">₹250</button>
+        <button type="button" class="amount" data-amount="500">₹500</button>
+        <button type="button" class="amount" data-amount="1000">₹1,000</button>
+        <button type="button" class="amount" data-amount="2500">₹2,500</button>
+      </div>
+
+      <label class="form-field">
+        Full name
+        <input name="name" required placeholder="Your name">
+      </label>
+
+      <label class="form-field">
+        Email address
+        <input name="email" type="email" required placeholder="you@example.com">
+      </label>
+
+      <label class="form-field" id="amountField">
+        Donation amount (₹)
+        <input name="amount" id="amountInput" type="number" min="1" value="250">
+      </label>
+
+      <label class="form-field" id="interestField" hidden>
+        Area of interest
+        <select name="interest">
+          <option>Food & Nutrition</option>
+          <option>Education</option>
+          <option>Healthcare</option>
+          <option>Community Support</option>
+          <option>General Support</option>
+        </select>
+      </label>
+
+      <label class="form-field" id="orgField" hidden>
+        Organisation / Company
+        <input name="organisation" placeholder="Organisation name">
+      </label>
+
+      <label class="form-field">
+        Message (optional)
+        <textarea name="message" rows="3" placeholder="Anything you would like us to know?"></textarea>
+      </label>
+
+      <button class="button button-dark full-width" type="submit" id="submitAction">
+        Continue →
+      </button>
+
+      <p class="form-footnote">
+        Demo only: this form does not collect payments or send information to a server.
+      </p>
+
+    </form>
+
+    <div class="success-state" id="successState" hidden>
+      <span>✓</span>
+      <h3>Thank you for caring!</h3>
+      <p id="successMessage">Your demo submission has been recorded on this page.</p>
+      <button class="button button-dark" id="successClose">Done</button>
+    </div>
+
+  </section>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
